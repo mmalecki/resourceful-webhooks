@@ -1,20 +1,21 @@
 # resourceful-webhooks [![Build Status](https://secure.travis-ci.org/mmalecki/resourceful-webhooks.png)](http://travis-ci.org/mmalecki/resourceful-webhooks)
 Webhooks for `resourceful`!
 
-`resourceful-webhooks` requests an URL every time an event happens on a
+`resourceful-webhooks` requests a URL every time an event happens on a
 resource.
 
-If webhook responds with an HTTP error, error is returned, thus blocking event
-from happening.
+If the webhook responds with an HTTP error, an error is returned, thus
+blocking the event from happening.
 
 ## Installation
 
     npm install resourceful-webhooks
 
 ## Usage
-Following example will `POST` to `127.0.0.1:8000/?event=create` when `Resource` is created.
+The following example will `POST` to `127.0.0.1:8000/?event=create` when
+a `Resource` is created.
 
-Request body is the created document.
+The request body is the created document.
 
 ```js
 var resourceful = require('resourceful');
