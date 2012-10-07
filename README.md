@@ -12,7 +12,9 @@ from happening.
     npm install resourceful-webhooks
 
 ## Usage
-Following example will request `127.0.0.1:8000` when `Resource` is created.
+Following example will `POST` to `127.0.0.1:8000/?event=create` when `Resource` is created.
+
+Request body is the created document.
 
 ```js
 var resourceful = require('resourceful');
