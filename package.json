@@ -1,0 +1,12 @@
+{
+  "name": "resourceful-webhooks",
+  "author": "Maciej Małecki <me@mmalecki.com>",
+  "version": "0.0.0",
+  "devDependencies": {
+    "assert-called": "0.1.x",
+    "resourceful": "0.3.x"
+  },
+  "scripts": {
+    "test": "node test/resourceful-webhooks-test.js"
+  }
+}
