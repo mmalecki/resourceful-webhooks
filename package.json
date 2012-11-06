@@ -7,6 +7,6 @@
     "resourceful": "0.3.x"
   },
   "scripts": {
-    "test": "node test/resourceful-webhooks-test.js"
+    "test": "node test/resourceful-webhooks-test.js && node test/ignore-errors-test.js"
   }
 }
