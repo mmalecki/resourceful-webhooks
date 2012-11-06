@@ -37,6 +37,8 @@ var server = http.createServer(function (req, res) {
     else {
       assert(false);
     }
+
+    maybeEnd();
   });
 }).listen(PORT);
 
@@ -52,7 +54,6 @@ Resource.create({
   hello: 'world'
 }, cb(function goodCb(err) {
   assert(!err);
-  maybeEnd();
 }));
 
 Resource.create({
@@ -60,5 +61,4 @@ Resource.create({
   hello: 'universe'
 }, cb(function badCb(err) {
   assert(err);
-  maybeEnd();
 }));
