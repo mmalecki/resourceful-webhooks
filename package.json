@@ -1,7 +1,7 @@
 {
   "name": "resourceful-webhooks",
   "author": "Maciej Małecki <me@mmalecki.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "assert-called": "0.1.x",
     "resourceful": "0.3.x"
