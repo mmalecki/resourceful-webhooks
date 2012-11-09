@@ -16,6 +16,7 @@ function maybeEnd() {
 
 var server = http.createServer(function (req, res) {
   assert.equal(req.url, '/?event=create');
+  assert.equal(req.headers['content-type'], 'application/json');
 
   var data = '';
 
