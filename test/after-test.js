@@ -3,7 +3,7 @@ var http = require('http'),
     cb = require('assert-called'),
     resourceful = require('resourceful');
 
-require('../lib/resourceful-webhooks');
+require('../');
 
 var PORT = 8123,
     gotCallbacks = 0;

@@ -8,5 +8,6 @@
   },
   "scripts": {
     "test": "node test/resourceful-webhooks-test.js && node test/ignore-errors-test.js && node test/after-test.js"
-  }
+  },
+  "main": "./lib/resourceful-webhooks"
 }
